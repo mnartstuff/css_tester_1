@@ -6,12 +6,13 @@ header{
 h1{
     color: blue;
 }
-first{
-	font-size: 120%;
-    	color:#f34d23;
+h3{
+    text-align: center;
+    font-size: 120%;
+    color:#f34d23;
 	background-color: rgb(95, 248, 189);
 }
-h3{
+p{
     font-size: 130%;
     color: #f8fc0b;
     background-color: #7d23f3;
