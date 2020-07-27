@@ -6,13 +6,12 @@ header{
 h1{
     color: blue;
 }
-first{
+p{
 	font-size: 120%;
     color:#f34d23;
 	background-color: rgb(95, 248, 189);
 }
-second{
+nav{
     font-size: 130%;
-    color: #f8fc0b;
     background-color: #7d23f3
 }
