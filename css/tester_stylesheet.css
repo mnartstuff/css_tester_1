@@ -6,15 +6,13 @@ header{
 h1{
     color: blue;
 }
-h3{
-	text-align: center;
-}
-p{
+first{
 	font-size: 120%;
     color:#f34d23;
 	background-color: rgb(95, 248, 189);
 }
-nav{
+second{
     font-size: 130%;
-    background-color: #7d23f3
+    color: #f8fc0b;
+    background-color: #7d23f3;
 }
