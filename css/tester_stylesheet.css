@@ -6,6 +6,9 @@ header{
 h1{
     color: blue;
 }
+h3{
+	text-align: center;
+}
 p{
 	font-size: 120%;
     color:#f34d23;
