@@ -1,0 +1,30 @@
+header{
+    background: #adadad;
+    font-size: 125%;
+}
+
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffffff;
+}
+
+h2{
+    text-transform: uppercase;
+    color: #000075;
+}
+
+a{
+    color: #000000;
+    background: #d4d4d4;
+}
+
+aside{
+    display: none;
+}
+
+.right{
+    background: #757575;
+    font-size: 140%;
+}
+
