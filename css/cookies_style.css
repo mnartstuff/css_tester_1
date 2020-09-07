@@ -15,6 +15,7 @@ nav{
 	height: 100vh;
 	overflow: auto;
 	padding-top: 12px;
+	clear: left;
 }
 
 nav a{
@@ -63,4 +64,13 @@ img{
 
 img:hover{
 	transform: rotateY(180deg);
+}
+
+button{
+	font-style: bold;
+	padding: 6px 15px;
+}
+
+#pp{
+	display: none;
 }
