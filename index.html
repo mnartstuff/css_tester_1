@@ -5,12 +5,10 @@
 	<title>Alex's Cookies</title>
     <link rel="stylesheet" type="text/css" href="css/cookies_style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,300,400">
-	<script>
-		alert("YOU'RE MY SQUEEZY!")
-	</script>
+	<script src="js/cookies_javascript.js"></script>
 </head>
 
-<body>
+<body onload="setDate()">
 
 	<nav>
 		<a href="home.html">Home</a>
@@ -20,16 +18,14 @@
 	</nav>
 	
 	<section>
-		<script>
-		var name;
-		name = prompt("What do you want for dinner tonight?");
-		document.write("<h1>I'd like some " + name + " too. I'll make it.</h1>");
-		</script>
+
 		<h1>
 			Alexandra's Chocolate Cookie Deliciousness
 		</h1>
 		
-		<p>
+		<p> The current date is <span id = "date"></span></p>
+		
+		<p id="inner" onmouseover="cannedham()">
 			You haven't had tasted deeeeeee-licious until you've had Alexandra's 
 			extra-yummy, extra-chocolatey cookies. Each one is hand-made with
 			love and tenderness, and is not-quite-but-almost as sweet as she is,
@@ -37,19 +33,38 @@
 			 the whole wide galaxy. 
 		</p>
 		
-		<p>
+		<p class="cookies">
 			Every time she bakes her cookies, it's an exciting time to be alive.
 			I like to tell my brother what she's up to because it makes him
 			jealous. One time, she send the two of us cookies in the post when we
 			were in New Hampshire. They arrived in crumbs, but we ate those and
 			they were great.
 		</p>
+
+		<p>
+			Where does such deliciousness come from? Click below to see Alexandra
+			making the cookie dough.
+		</p>
+		
+		<button type="button"
+		onclick="openMe()">
+		Show me!</button>
+		
+		<button type="button"
+		onclick="closeMe()">
+		I've seen enough!</button>
+		
+		<figure id="pp">
+			<img src="images/alp_smile.jpg" alt="So chocolatey!">
+		</figure>
 	</section>
 	
 	<section>
-		<figure>
+		<figure class="baked">
 			<img src="images/alex_cookies.jpg" alt="So much yumminess!">
 			<figcaption>So much yumminess!</figcaption>
 		</figure>
 	</section>
+
 </body>
+</html>
