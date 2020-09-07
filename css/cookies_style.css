@@ -80,3 +80,7 @@ button:nth-of-type(2){
 #pp{
 	display: none;
 }
+
+#preview{
+	display:none;
+}
