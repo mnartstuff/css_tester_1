@@ -69,6 +69,12 @@ img:hover{
 button{
 	font-style: bold;
 	padding: 6px 15px;
+	text-align: center;
+	margin: auto;
+}
+
+button:nth-of-type(2){
+	display:none;
 }
 
 #pp{
